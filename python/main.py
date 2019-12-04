@@ -3,6 +3,7 @@ import torch.nn as nn
 #from mymodule1 import simple_autoPrelu
 from libmodel import simple_autoPrelu
 from libtrain import training
+from libinference import inference
 
 
 
@@ -11,18 +12,7 @@ if __name__=="__main__":
 
 
 
-    training("","")
+    #training("","")
 
-
-
-    ten=torch.rand((1,1,64,64))
-
-    model=  simple_autoPrelu()
-
-    print(model)
-
-    out=model(ten)
-
-    print(out)
-
+    inference("")
 

@@ -8,6 +8,7 @@ ext_modules = [
     Extension("libtrain",  ["libtrain.py"]),
     Extension("libmodel",  ["libmodel.py"]),
     Extension("libcustomDataset",  ["libcustomDataset.py"]),
+    Extension("libinference",  ["libinference.py"]),
    
 ]
 

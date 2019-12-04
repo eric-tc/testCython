@@ -11,8 +11,10 @@ print (sysconfig.get_config_var('LIBS'))
 
 import libtrain
 from libtrain import training
+
 print(libtrain.__file__)
 
+from libinference import inference
 
 
 
@@ -21,7 +23,9 @@ if __name__=="__main__":
 
 	
 
-    training("","")
+    #training("","")
+    inference("")
+    
 
 
 
